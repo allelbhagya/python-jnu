@@ -16,4 +16,4 @@ https://www.youtube.com/watch?v=Od3ItO2aKAY
 
 # attendance
 
-https://docs.google.com/spreadsheets/d/1867VPx3aW4f7toOQmhEuVtAXlP_dSbGWYZGlaDIbS7M/edit?usp=sharing
+https://forms.gle/b2pnzNgfKv1fHiJP6
