@@ -1,28 +1,12 @@
-class Stack:
-    def __init__(self):
-        self.stack = []
-    
-    def empty(self):
-        return len(self.stack) == 0
-    
-    def push(self, value):
-        self.stack.append(value)
+class Solution:
+    def groupAnagrams(self):
+        check = {}
+        alls=[]
+        for i in strs:
+            splits = list(i)
+            print(splits)
+            alls.append(splits)
+        return alls
 
-    def pop(self):
-        if not self.empty():
-            value = self.stack.pop()
-            return value
-    
-    def top(self):
-        if not self.empty():
-            value = self.stack.pop()
-            return value
-
-s = Stack()
-
-print(s.empty())
-s.push(1)
-s.push(2)
-print(s.empty())
-s.push(2)
-print(s.pop())
+strs =["eat","tea","tan","ate","nat","bat"]
+print(Solution.groupAnagrams(strs))
